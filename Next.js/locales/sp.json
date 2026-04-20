@@ -1,0 +1,32 @@
+{
+  "signIn": {
+    "title": "Iniciar sesión",
+    "remember": "Recuérdame",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "login": "Acceder",
+    "loading": "Iniciando sesión..."
+  },
+  "moviesList": {
+    "title": "Mis Películas",
+    "prev": "anterior",
+    "next": "siguiente",
+    "empty": "Tu lista de películas está vacía",
+    "emaptyAction": "Agregar una nueva película"
+  },
+  "logout": {
+    "title": "Cerrar sesión"
+  },
+  "movieForm": {
+    "addTitle": "Crear una nueva película",
+    "editTitle": "Editar",
+    "form": {
+      "name": "Título",
+      "year": "Año de publicación",
+      "Imagetext": "Suelta una imagen aquí",
+      "submit": "Enviar",
+      "cancel": "Cancelar",
+      "submitting": "Enviando"
+    }
+  }
+}

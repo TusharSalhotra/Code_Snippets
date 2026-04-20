@@ -1,0 +1,32 @@
+{
+  "signIn": {
+    "title": "Se connecter",
+    "remember": "Souviens-toi de moi",
+    "email": "Email",
+    "password": "Mot de passe",
+    "login": "Connexion",
+    "loading": "Connexion en cours..."
+  },
+  "moviesList": {
+    "title": "Mes Films",
+    "prev": "précédent",
+    "next": "suivant",
+    "empty": "Votre liste de films est vide",
+    "emaptyAction": "Ajouter un nouveau film"
+  },
+  "logout": {
+    "title": "Se déconnecter"
+  },
+  "movieForm": {
+    "addTitle": "Créer un nouveau film",
+    "editTitle": "Modifier",
+    "form": {
+      "name": "Titre",
+      "year": "Année de publication",
+      "Imagetext": "Déposez une image ici",
+      "submit": "Soumettre",
+      "cancel": "Annuler",
+      "submitting": "Soumission en cours"
+    }
+  }
+}

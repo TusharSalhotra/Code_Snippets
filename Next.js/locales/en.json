@@ -1,0 +1,32 @@
+{
+  "signIn": {
+    "title": "Sign In",
+    "remember": "Remember me",
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "loading": "Logging In..."
+  },
+  "moviesList": {
+    "title": "My Movies",
+    "prev": "prev",
+    "next": "next",
+    "empty": "Your movie list is empty",
+    "emaptyAction": "Add a new movie"
+  },
+  "logout": {
+    "title": "Log Out"
+  },
+  "movieForm": {
+    "addTitle": "Create a new movie",
+    "editTitle": "Edit",
+    "form": {
+      "name": "Title",
+      "year": "Publishing Year",
+      "Imagetext": "Drop an image here",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "submitting": "Submitting"
+    }
+  }
+}

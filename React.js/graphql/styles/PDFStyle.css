@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+.mainCard {
+    border-radius: 10px;
+    height: 100%;
+    width: 384px;
+    position: relative;
+    background-color: #fff;
+    border: 5px solid #1bb3a5;
+    z-index: 0;
+}
+.mainCardTop {
+    background-color: #13213b;
+    border-radius: 5px 5px 0 0;
+    padding: 30px 0 0;
+    position: relative;
+}
+.mainCardTop:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1bb3a5;
+    height: 4px;
+}
+.getOn {
+    background-color: #1bb3a5;
+    padding: 10px 30px;
+    position: relative;
+    width: 432px;
+    border-radius: 20px;
+    margin: 0 -28px;
+    position: relative;
+}
+
+.getOn:before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 10px;
+    background-color: #1bb3a5;
+    width: 40px;
+    height: 35px;
+    z-index: -2;
+    transform: rotate(-34deg);
+}
+.getOn:after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    right: 13px;
+    background-color: #1bb3a5;
+    width: 40px;
+    height: 30px;
+    z-index: -2;
+    transform: rotate(34deg);
+}   
+
+.qrCode {
+    height: 140px;
+    width: 140px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: -15px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.getOn .getOnDesc {
+    padding-left: 150px;
+}
+.getOn .getOnDesc h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    line-height: 40px;
+    margin: 0;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bolder;
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
+.getOn .getOnDesc h3 span {
+    font-size: 45px;
+}
+.scanQr {
+    padding: 23px 0;
+    text-align: center;
+}
+.scanQr h5 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 3px;
+}
+.scanQr h4 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    letter-spacing: 4px;
+}
+.textUp {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+.textUp > p {
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.checkFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 0;
+}
+.checkThis h5 {
+    font-size: 15px;
+    margin: 0;
+    color: #052642;
+}
+.checkThisRight {
+    display: flex;
+    margin-left: 20px;
+}
+.checkThisLogo {
+    display: flex;
+    align-items: center;
+}
+.checkThisLogo img {
+    max-width: 45px;
+    height: 45px;
+    margin-right: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.checkThisLogo h5 {
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 1px;
+    color: #052642;
+    line-height: 13px;
+    font-size: 12px;
+}
+.checkThisLogo p {
+    font-size: 10px;
+    color: #052642;
+    margin: 0;
+}
